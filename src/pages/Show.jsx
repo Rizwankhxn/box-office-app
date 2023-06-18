@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { getShowById } from '../api/tvmaze';
 import ShowMainData from '../components/shows/ShowMainData';
 import Details from '../components/shows/Details';
